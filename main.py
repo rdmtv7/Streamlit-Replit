@@ -43,7 +43,7 @@ def main():
 
     # Data Page
     elif page_selection == "Data":
-        st.header("Data Viewer")
+        st.header("Data Viewer_2")
         df = load_data(uploaded_file)
         if df is not None:
             st.write(df)
